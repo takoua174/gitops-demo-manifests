@@ -8,6 +8,6 @@ resources:
 
 images:
   - name: ghcr.io/takoua174/gitops-demo-app
-    newTag: does-not-exist
+    newTag: 1.2.0    
 patches:
   - path: patch-replicas.yaml
