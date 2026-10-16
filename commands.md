@@ -15,3 +15,9 @@ kubectl get deploy -n gitops-dev
 argocd app set gitops-demo-dev --self-heal=true
 
 demo3:
+    newTag: doesnotmatter
+kubectl get pods -n gitops-dev
+argocd app get gitops-demo-dev
+
+
+demo4:
