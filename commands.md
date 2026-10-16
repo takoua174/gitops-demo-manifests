@@ -19,5 +19,6 @@ demo3:
 kubectl get pods -n gitops-dev
 argocd app get gitops-demo-dev
 
+    newTag: 1.2.0
 
 demo4:
